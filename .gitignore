@@ -1,2 +1,7 @@
 # Claude Code local settings (machine-specific, not shared)
 .claude/settings.local.json
+
+# משתני סביבה אמיתיים (סודות) — לא עולים ל-Git
+.env
+.env.*
+!.env.example
